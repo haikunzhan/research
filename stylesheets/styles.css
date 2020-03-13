@@ -121,7 +121,7 @@ header ul {
 }
 
 header li {
-  width:89px;
+  width:70px;
   float:left;
   border-right:none;
   height:20px;
@@ -142,7 +142,7 @@ header ul a {
   display:block;
   text-align:center;
   padding-top:6px;
-  height:34px;
+  height:28px;
 }
 
 header ul a:hover {
