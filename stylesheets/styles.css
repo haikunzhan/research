@@ -127,13 +127,6 @@ header li {
   height:20px;
 }
 
-header lis {
-  width:40px;
-  float:left;
-  border-right:none;
-  height:20px;
-}
-
 header li:first-child a {
   border-radius:5px 0 0 5px;
 }
@@ -165,7 +158,7 @@ strong {
   font-weight:500;
 }
 
-header ul lis + lis + li + li{
+header ul li + li + li + li{
   border-right:none;
   width:70px;
 }
@@ -263,7 +256,7 @@ footer {
     width:99%;
   }
 
-  header li, header ul lis + lis + li + li{
+  header li, header ul li + li + li + li{
     width:20%;
   }
 }
