@@ -158,13 +158,13 @@ strong {
   font-weight:400;
 }
 
-header ul li + li + li {
+header ul li + li + li + li {
   border-right:none;
-  width:89px;
+  width:50px;
 }
 
 header ul a strong {
-  font-size:12px;
+  font-size:14px;
   display:block;
   color:#222;
 }
