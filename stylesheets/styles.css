@@ -123,6 +123,7 @@ header ul {
 header li {
   width:50px;
   float:left;
+  border-right:none;
   height:20px;
 }
 
