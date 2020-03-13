@@ -159,11 +159,11 @@ strong {
 
 header ul li + li + li + li{
   border-right:none;
-  width:89px;
+  width:70px;
 }
 
 header ul a strong {
-  font-size:14px;
+  font-size:13px;
   display:block;
   color:#222;
 }
