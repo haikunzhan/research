@@ -121,7 +121,14 @@ header ul {
 }
 
 header li {
-  width:50px;
+  width:60px;
+  float:left;
+  border-right:none;
+  height:20px;
+}
+
+header lis {
+  width:40px;
   float:left;
   border-right:none;
   height:20px;
@@ -158,7 +165,7 @@ strong {
   font-weight:500;
 }
 
-header ul li + li + li + li{
+header ul lis + lis + li + li{
   border-right:none;
   width:70px;
 }
@@ -256,7 +263,7 @@ footer {
     width:99%;
   }
 
-  header li, header ul li + li + li + li{
+  header li, header ul lis + lis + li + li{
     width:20%;
   }
 }
