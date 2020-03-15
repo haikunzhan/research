@@ -1,19 +1,102 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en-us">
 
-<div class="posts">
-  {% for post in paginator.posts %}
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      My Name
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/research/public/css/poole.css">
+  <link rel="stylesheet" href="/research/public/css/syntax.css">
+  <link rel="stylesheet" href="/research/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/research/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/research/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/research/">
+          Hyde
+        </a>
+      </h1>
+      <p class="lead">contact details</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/research/">Home</a>
+      <a class="sidebar-nav-item" href="">CV</a>
+      <a class="sidebar-nav-item" href="https://github.com/poole/hyde">Research</a>
+      <a class="sidebar-nav-item" href="https://github.com/poole/hyde">Teaching</a>
+    </nav>
+
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="posts">
+  
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
+      <a href="/2013/12/28/introducing-hyde/">
+        Welcome to my website!
       </a>
     </h1>
 
 
-    {{ post.content }}
+    <p>I a a Ph.D. Candidate in the Department of Economics at the Univeristy of Melbourne. 
+My research interests are at the intersection of Political Economics and Development Economics.</p>
+
+
   </div>
-  {% endfor %}
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2012/02/07/example-content/">
+        Research
+      </a>
+    </h1>
+
+
+    <p><strong>Working Paper</strong></p>
+<ul>
+  <li>paper 1</li>
+  <li>paper 2</li>
+</ul>
+
+<p><strong>Working in Progress</strong></p>
+<ul>
+  <li>paper 3</li>
+  <li>paper 4</li>
+</ul>
+
+
+  </div>
+  
 </div>
+
+    </div>
+
+  </body>
+</html>
